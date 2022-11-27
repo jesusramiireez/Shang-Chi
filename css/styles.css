@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 194, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page{
+    background-color: #000;
+    margin-top: 10px;
+    width: 50%;
+}
+
+header{
+    width: 100%;
+    border-bottom: 10px solid rgb(197, 194, 194);
+    display: flex;
+}
+
+header img{
+    width: 20%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .film-section {
+    object-fit: cover;
+    width: 60%;
+    color: white;
+}
+
+main h2{
+    color: yellow;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+main .film-section img{
+    width: 100%;
+}
+
+main .film-section .slogan{
+    padding: 1rem 1rem;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main .film-section .text{
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+main .film-section h3{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.film-section button {
+    background: rgb(207, 37, 37);
+    border: 1px solid rgb(197, 197, 80);
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    height: 2rem;
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.film-section .separador{
+    margin-bottom: 2rem;
+}
+
+.film-section .trailer{
+    margin-bottom: 1rem;
+}
+
+.film-section .trailer:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+footer img{
+    width: 15%;
+}
+
+
